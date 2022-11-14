@@ -40,7 +40,7 @@ The former is for training and dumping the models. The latter is for testing the
 	* DT_original_dataset.pkl
 	* DT_reduced_dataset.pkl
 	* trained_pca.pkl
-	* final_model.pkl (refer to Executing Program section)
+	* [final_model.pkl](https://www.dropbox.com/s/82hsv598ixx8qya/final_model.pkl?dl=0) (refer to Executing Program section)
 
 ## Help
 
