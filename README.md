@@ -1,22 +1,76 @@
-# Project 2
+# Project Title
 
-This is an **individual assignment**.
+EEL4930 Project 2 - Dimensionality Reduction
 
-## Code Implementation & Technical Report
+## Description
 
-The final deliverables include a 4-page IEEE-format report, code implementation and a detailed GitHub readme file.
+This project experiments with approaches to the design process of various machine learning techniques 
+with a characters dataset. Various dimensionality reduction, manifold learning techniques, and 
+visualization practices for classification tasks are explored. 
 
-Project 2 is due Monday, November 14 @ 11:59 PM. Find the complete [rubric](https://ufl.instructure.com/courses/459156/assignments/5412724) in the Canvas assignment.
+## Getting Started
 
-## Custom Handwritten Characters Dataset
+### Dependencies
 
-The dataset you will be working with is available for download here:
+* Python 3 is required for this code
+* scikit-learn is required
+	* to install, run: ```$ pip install -U scikit-learn```
 
-* ["data_train.npy"](https://ufl.instructure.com/files/72621855/download?download_frd=1)
-* ["labels_train.npy"](https://ufl.instructure.com/files/72621858/download?download_frd=1)
-* ["data_test.npy"](https://ufl.instructure.com/files/72621555/download?download_frd=1)
-* ["labels_test.npy"](https://ufl.instructure.com/files/72621857/download?download_frd=1)
 
-## Edit this READ-ME
+### Executing program
 
-Please edit this read-me file with information about your project. There are no requirements for this readme file, but you can find a [template here](https://github.com/catiaspsilva/README-template).
+* The code is intended to run on the University of Flordia supercomputer cluster Hipergator 3.0
+* It has been tested using the UFRC Python-3.10 kernel
+
+The code is comprised of two jupyter notebooks, training.ipynb and test.ipynb.
+The former is for training and dumping the models. The latter is for testing the models.
+
+## Help
+
+### Training & testing other datasets
+
+This code should seamlessly train and test other datasets of character images with minimal changes.
+
+To run this program using another dataset:
+* replace the 2nd cell (# Loading Data) with the name of the partitioned training and test data
+in their respective notebooks
+* modify hard-coded values in any matplotlib functions depending on dataset size
+
+## Authors
+
+Shane Ferrell | [linkedin.com/ferrellshanewv](https://linkedin.com/ferrellshanewv) | [github.com/shaneferrellwv](https://github.com/shaneferrellwv)
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Shane Ferrell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgments
+
+Thank you Dr. Silva and Jackson for your patience and quick responses! 
+This was a fun project and I am beginning to understand so much more 
+than I was expecting beyond the basic machine learning process.
