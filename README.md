@@ -1,6 +1,4 @@
-# Project Title
-
-EEL4930 Project 2 - Dimensionality Reduction
+# EEL4930 Project 2 - Dimensionality Reduction
 
 ## Description
 
