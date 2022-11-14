@@ -25,6 +25,10 @@ visualization practices for classification tasks are explored.
 The code is comprised of two jupyter notebooks, training.ipynb and test.ipynb.
 The former is for training and dumping the models. The latter is for testing the models.
 
+* The final model chosen by grid search cross-validation can be found [here](https://www.dropbox.com/s/82hsv598ixx8qya/final_model.pkl?dl=0)
+* Downloading this model is not necessary if training.ipynb is run before test.ipynb. 
+    * However, training is expensive and time-consuming. It is recommended to use the trained model.
+
 ## Help
 
 ### Training & testing other datasets
