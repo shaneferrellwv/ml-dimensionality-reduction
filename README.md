@@ -27,6 +27,21 @@ The former is for training and dumping the models. The latter is for testing the
 * Downloading this model is not necessary if training.ipynb is run before test.ipynb. 
     * However, training is expensive and time-consuming. It is recommended to use the trained model.
 
+## Files
+
+* Deliverables
+	* training.ipynb
+	* test.ipynb
+	* Project 2 IEEE Report.docx
+* Other Files
+	* scaler.pkl
+	* RFE_LogReg_n100_step25.pkl
+	* RFE2_DecisionTree_n100_step25.pkl
+	* DT_original_dataset.pkl
+	* DT_reduced_dataset.pkl
+	* trained_pca.pkl
+	* final_model.pkl (refer to Executing Program section)
+
 ## Help
 
 ### Training & testing other datasets
